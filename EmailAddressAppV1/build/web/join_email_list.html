@@ -1,0 +1,84 @@
+<!--
+To change this template, choose Tools | Templates
+and open the template in the editor.
+-->
+<!DOCTYPE html>
+<html>
+    <head>
+        <title>Email Address App</title>
+        <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    </head>
+    <body>
+        <h1>Join Our Email List</h1>
+        
+        <p>To join our email list, enter your name and email address below, </p>
+        
+        <form action="display_email_entry.jsp" method="get">
+            <table cellspacing="5" border="0">
+                <tr>
+                     <td align="right"> Name: </td>
+                     <td><input type="text" name="name"> </td>
+                </tr> 
+               
+                <tr>
+                     <td align="right"> Address: </td>
+                     <td><input type="text" name="address"> </td>
+                </tr> 
+                
+                <tr>
+                     <td align="right"> City: </td>
+                     <td><input type="text" name="city"> </td>
+                </tr>
+                
+                <tr>
+                     <td align="right"> County: </td>
+                     <td><input type="text" name="county"> </td>
+                </tr> 
+                
+                <tr>
+                     <td align="right"> Phone: </td>
+                     <td><input type="text" name="phone"> </td>
+                </tr> 
+                
+                <tr>
+                     <td align="right"> Email: </td>
+                     <td><input type="text" name="emailAddress"> </td>
+                </tr> 
+                
+                <tr>
+                     <td align="right"> Gender: </td>
+                     <td><input type="radio" name="gender" value="male"> Male
+                         <input type="radio" name="gender" value="female"> Female
+                </tr> 
+                
+                <tr>
+                     <td align="right"> How did you hear about Us? </td>
+                     <td><input type="checkbox" name="about" value="Twitter"> Twitter 
+                     <input type="checkbox" name="about" value="Facebook"> Face Book
+                     <input type="checkbox" name="about" value="Newspaper"> Newspaper
+                     <input type="checkbox" name="about" value="Radio"> Radio
+                     <input type="checkbox" name="about" value="Other"> Other </td>
+                </tr> 
+                
+                <tr>
+                    <td align="right"> Comments </td>
+                    <textarea rows="4" cols="50">
+                        Enter Comments !
+                    </textarea>
+                </tr>
+                
+                
+                
+                
+                <tr>
+                    <td></td>
+                    <td><br><input type="submit" value="Submit"> </td>
+                </tr>
+                
+                
+                
+                
+            </table>
+        </form> 
+    </body>
+</html>
